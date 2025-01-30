@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fa4abdf1de731e080d690c5ab433a85 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3fa4abdf1de731e080d690c5ab433a85" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fa4abdf1de731e080d690c5ab433a85 = L.map(
+                "map_3fa4abdf1de731e080d690c5ab433a85",
+                {
+                    center: [35.1725, 33.365],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_860df3f07f88b51bc4e2cd9e9a2e4496 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_860df3f07f88b51bc4e2cd9e9a2e4496.addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var marker_e6ed81f7f9fd51e1e937d38e5145f1da = L.marker(
+                [35.16329391966316, 33.35162978650745],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_7b9035035b3277c285b332c1a08802d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e6ed81f7f9fd51e1e937d38e5145f1da.setIcon(icon_7b9035035b3277c285b332c1a08802d0);
+        
+    
+        var popup_e8ec69f465ec62f2bf0d1587a612a560 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d02bcda54bff8d4e6a4c43bd8ee494c = $(`<div id="html_9d02bcda54bff8d4e6a4c43bd8ee494c" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/7qjdNibyopJzzxCx6?g_st=com.google.maps.preview.copy" target="_blank">γρανάζι</a><br><b>Working Hours:</b> 5:30 pm–1:30 am</div>`)[0];
+                popup_e8ec69f465ec62f2bf0d1587a612a560.setContent(html_9d02bcda54bff8d4e6a4c43bd8ee494c);
+            
+        
+
+        marker_e6ed81f7f9fd51e1e937d38e5145f1da.bindPopup(popup_e8ec69f465ec62f2bf0d1587a612a560)
+        ;
+
+        
+    
+    
+            var marker_c572f891f2b37b9cbd4dbccc1831433b = L.marker(
+                [35.167403975223216, 33.35657405767164],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_6f0b6ddfae66bb735f300357277e0813 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c572f891f2b37b9cbd4dbccc1831433b.setIcon(icon_6f0b6ddfae66bb735f300357277e0813);
+        
+    
+        var popup_60ecd4c0cd1206eb0d16820f7b1c8f42 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c4222328bf91aef3a82bf2eefe6eaf5 = $(`<div id="html_8c4222328bf91aef3a82bf2eefe6eaf5" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/tCXV3FbzVgj1XBBF7?g_st=com.google.maps.preview.copy" target="_blank">New Division</a><br><b>Working Hours:</b> 7:30 pm–2:45 am</div>`)[0];
+                popup_60ecd4c0cd1206eb0d16820f7b1c8f42.setContent(html_8c4222328bf91aef3a82bf2eefe6eaf5);
+            
+        
+
+        marker_c572f891f2b37b9cbd4dbccc1831433b.bindPopup(popup_60ecd4c0cd1206eb0d16820f7b1c8f42)
+        ;
+
+        
+    
+    
+            var marker_19e71bf2c14fe29d303fed879e79174a = L.marker(
+                [35.17480594608723, 33.36568168650744],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_7b2cc79be1727b7a5f934d4687d6ce14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_19e71bf2c14fe29d303fed879e79174a.setIcon(icon_7b2cc79be1727b7a5f934d4687d6ce14);
+        
+    
+        var popup_4496b9de782fc31c311db25550280c5b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd8232716309cab2b64ffbb57be103ef = $(`<div id="html_cd8232716309cab2b64ffbb57be103ef" style="width: 100.0%; height: 100.0%;"><a href=" https://maps.app.goo.gl/NbpKhHZmQuaEQRCg9?g_st=com.google.maps.preview.copy" target="_blank">Charatsi</a><br><b>Working Hours:</b> 10 am–11 pm</div>`)[0];
+                popup_4496b9de782fc31c311db25550280c5b.setContent(html_cd8232716309cab2b64ffbb57be103ef);
+            
+        
+
+        marker_19e71bf2c14fe29d303fed879e79174a.bindPopup(popup_4496b9de782fc31c311db25550280c5b)
+        ;
+
+        
+    
+    
+            var marker_1a70598619fc9b78f9a24a11e607ab57 = L.marker(
+                [35.164877782851704, 33.360486515343254],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_7ac7dce5b685312c066c53fb5d90c5e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1a70598619fc9b78f9a24a11e607ab57.setIcon(icon_7ac7dce5b685312c066c53fb5d90c5e0);
+        
+    
+        var popup_5272c7175b9afbedc74a50d66ef0a91b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_812e667e55001750c3484644d70c96ff = $(`<div id="html_812e667e55001750c3484644d70c96ff" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/H9fMTxT6sfkSz9pw8?g_st=com.google.maps.preview.copy" target="_blank">Blurry lights</a><br><b>Working Hours:</b> 5:30 pm–1:30 am</div>`)[0];
+                popup_5272c7175b9afbedc74a50d66ef0a91b.setContent(html_812e667e55001750c3484644d70c96ff);
+            
+        
+
+        marker_1a70598619fc9b78f9a24a11e607ab57.bindPopup(popup_5272c7175b9afbedc74a50d66ef0a91b)
+        ;
+
+        
+    
+    
+            var marker_d2660e0f58cf9c9c3b0a38c13dc413d0 = L.marker(
+                [35.170990632899105, 33.36839918650743],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_4797ce3492152477a01e2f8086f079a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d2660e0f58cf9c9c3b0a38c13dc413d0.setIcon(icon_4797ce3492152477a01e2f8086f079a0);
+        
+    
+        var popup_35b45db21d04ddf9b8d4d9769ae07fcb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8d855f78c23aef565c99a5bb2c296e4f = $(`<div id="html_8d855f78c23aef565c99a5bb2c296e4f" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/BUCSN3taHVyh7EfdA?g_st=com.google.maps.preview.copy" target="_blank">Neverland Rock</a><br><b>Working Hours:</b> 8 pm–4 am</div>`)[0];
+                popup_35b45db21d04ddf9b8d4d9769ae07fcb.setContent(html_8d855f78c23aef565c99a5bb2c296e4f);
+            
+        
+
+        marker_d2660e0f58cf9c9c3b0a38c13dc413d0.bindPopup(popup_35b45db21d04ddf9b8d4d9769ae07fcb)
+        ;
+
+        
+    
+    
+            var marker_beaf29e5f98ea0018acf5df8bcbd32e3 = L.marker(
+                [35.165244180748225, 33.36044803569323],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_ee43516cda2420175271f18297d143b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_beaf29e5f98ea0018acf5df8bcbd32e3.setIcon(icon_ee43516cda2420175271f18297d143b9);
+        
+    
+        var popup_c32afabcf3b86362e007fd241efd779c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffbeb08441eec99c07c662d5b7b6f8c1 = $(`<div id="html_ffbeb08441eec99c07c662d5b7b6f8c1" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/esYrQZhDkx87S5kd7" target="_blank">Moondog</a><br><b>Working Hours:</b> 12 pm–2 am</div>`)[0];
+                popup_c32afabcf3b86362e007fd241efd779c.setContent(html_ffbeb08441eec99c07c662d5b7b6f8c1);
+            
+        
+
+        marker_beaf29e5f98ea0018acf5df8bcbd32e3.bindPopup(popup_c32afabcf3b86362e007fd241efd779c)
+        ;
+
+        
+    
+    
+            var marker_95879960913edaf6d40ca0a51e36cf9e = L.marker(
+                [35.173948566523926, 33.36134425952235],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_a32a13023fe6112f4a6762196dc4fbbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_95879960913edaf6d40ca0a51e36cf9e.setIcon(icon_a32a13023fe6112f4a6762196dc4fbbf);
+        
+    
+        var popup_bf56e51d7199c710069e3c44746d4f21 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8f10ba351bcb6d4ce402f9f8b08ace71 = $(`<div id="html_8f10ba351bcb6d4ce402f9f8b08ace71" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/pKwLZUwtLchQqzGS6?g_st=com.google.maps.preview.copy" target="_blank">BrewFellas</a><br><b>Working Hours:</b> 6 pm–1 am</div>`)[0];
+                popup_bf56e51d7199c710069e3c44746d4f21.setContent(html_8f10ba351bcb6d4ce402f9f8b08ace71);
+            
+        
+
+        marker_95879960913edaf6d40ca0a51e36cf9e.bindPopup(popup_bf56e51d7199c710069e3c44746d4f21)
+        ;
+
+        
+    
+    
+            var marker_97b60fff53f300cb5f61172fb6479bde = L.marker(
+                [35.16667061871176, 33.35212478465674],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_83c3c1fa3b6d525b6a0d32635c45f531 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_97b60fff53f300cb5f61172fb6479bde.setIcon(icon_83c3c1fa3b6d525b6a0d32635c45f531);
+        
+    
+        var popup_3f47c7ad6b52d36504532cf8ebd15dcb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1e46ac828efd89cbcf92699d162d2c04 = $(`<div id="html_1e46ac828efd89cbcf92699d162d2c04" style="width: 100.0%; height: 100.0%;"><a href=" https://maps.app.goo.gl/mVtDQ3Gx7fGU6Nzm7?g_st=com.google.maps.preview.copy" target="_blank">Lost + Found</a><br><b>Working Hours:</b> 6 pm–1:30 am</div>`)[0];
+                popup_3f47c7ad6b52d36504532cf8ebd15dcb.setContent(html_1e46ac828efd89cbcf92699d162d2c04);
+            
+        
+
+        marker_97b60fff53f300cb5f61172fb6479bde.bindPopup(popup_3f47c7ad6b52d36504532cf8ebd15dcb)
+        ;
+
+        
+    
+    
+            var marker_b68c9a7a48cb8a8539286399bd166b0c = L.marker(
+                [35.17235736008445, 33.36239324417909],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_1fb070f3d7fd1e9141e0195604fcb9d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b68c9a7a48cb8a8539286399bd166b0c.setIcon(icon_1fb070f3d7fd1e9141e0195604fcb9d0);
+        
+    
+        var popup_df4136cb603e6c0848c16eb2bf8cac8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e72062bce337acd641fdd8af69cefbbb = $(`<div id="html_e72062bce337acd641fdd8af69cefbbb" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/W4HzkKzw3gWbpj149?g_st=com.google.maps.preview.copy" target="_blank">The Gym</a><br><b>Working Hours:</b> 10:30 am–1:30 am</div>`)[0];
+                popup_df4136cb603e6c0848c16eb2bf8cac8f.setContent(html_e72062bce337acd641fdd8af69cefbbb);
+            
+        
+
+        marker_b68c9a7a48cb8a8539286399bd166b0c.bindPopup(popup_df4136cb603e6c0848c16eb2bf8cac8f)
+        ;
+
+        
+    
+    
+            var marker_4a6a23cbb377391575d8fa8d39fa1b31 = L.marker(
+                [35.17445555601056, 33.36327624417908],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_08c4a593b3b0e9987b3775b874d3bb6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4a6a23cbb377391575d8fa8d39fa1b31.setIcon(icon_08c4a593b3b0e9987b3775b874d3bb6a);
+        
+    
+        var popup_3ef7a9a06145f18c4a198d383eab5f83 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_096f9403dd52aa1a9424d52d290e95b8 = $(`<div id="html_096f9403dd52aa1a9424d52d290e95b8" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/1FkxnBoYgoUsxW428?g_st=com.google.maps.preview.copy" target="_blank">Picnic</a><br><b>Working Hours:</b> 6 pm–1:30 am</div>`)[0];
+                popup_3ef7a9a06145f18c4a198d383eab5f83.setContent(html_096f9403dd52aa1a9424d52d290e95b8);
+            
+        
+
+        marker_4a6a23cbb377391575d8fa8d39fa1b31.bindPopup(popup_3ef7a9a06145f18c4a198d383eab5f83)
+        ;
+
+        
+    
+    
+            var marker_b84ff20773cdfd9b7500074597489038 = L.marker(
+                [35.167321863778085, 33.356922255820926],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_59f250d1cf3cb43ebedb51b514fba656 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b84ff20773cdfd9b7500074597489038.setIcon(icon_59f250d1cf3cb43ebedb51b514fba656);
+        
+    
+        var popup_d3235397661be8f2b68520407129187a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dac869ab4294d652e9fb42f24d65f046 = $(`<div id="html_dac869ab4294d652e9fb42f24d65f046" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/apkGiqAdxvrPSq4j9?g_st=com.google.maps.preview.copy" target="_blank">Kollaborative Coffee Roasters</a><br><b>Working Hours:</b> 7:30 am–12:30 am</div>`)[0];
+                popup_d3235397661be8f2b68520407129187a.setContent(html_dac869ab4294d652e9fb42f24d65f046);
+            
+        
+
+        marker_b84ff20773cdfd9b7500074597489038.bindPopup(popup_d3235397661be8f2b68520407129187a)
+        ;
+
+        
+    
+    
+            var marker_98eb80530890988eb58e0af0fe7184e3 = L.marker(
+                [35.17401281557756, 33.36155037301491],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_0484c9bbdd3b3bc3c5c875278666d56c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_98eb80530890988eb58e0af0fe7184e3.setIcon(icon_0484c9bbdd3b3bc3c5c875278666d56c);
+        
+    
+        var popup_1e03e5eb846cd03659abbde78bd83e69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_361f125ced8ea8a7f22edf97311000a4 = $(`<div id="html_361f125ced8ea8a7f22edf97311000a4" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/qAx3m3qZjqz2SRct9?g_st=com.google.maps.preview.copy" target="_blank">Volver</a><br><b>Working Hours:</b> 8 pm–3 am</div>`)[0];
+                popup_1e03e5eb846cd03659abbde78bd83e69.setContent(html_361f125ced8ea8a7f22edf97311000a4);
+            
+        
+
+        marker_98eb80530890988eb58e0af0fe7184e3.bindPopup(popup_1e03e5eb846cd03659abbde78bd83e69)
+        ;
+
+        
+    
+    
+            var marker_db23ae961a058144e422223742e66483 = L.marker(
+                [35.17514981238871, 33.366338515343266],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_b48ae62ee55e3c844eb4b5c09c46207a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db23ae961a058144e422223742e66483.setIcon(icon_b48ae62ee55e3c844eb4b5c09c46207a);
+        
+    
+        var popup_da874100adf2dbdcbad7f5e4fd8e294e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a0975fdb1438f91bf3b3b09f3b5e5cf = $(`<div id="html_7a0975fdb1438f91bf3b3b09f3b5e5cf" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/xU5SQrJhGxX24Mv98?g_st=com.google.maps.preview.copy" target="_blank">Palaia Pineza</a><br><b>Working Hours:</b> 7:30 pm–3 am</div>`)[0];
+                popup_da874100adf2dbdcbad7f5e4fd8e294e.setContent(html_7a0975fdb1438f91bf3b3b09f3b5e5cf);
+            
+        
+
+        marker_db23ae961a058144e422223742e66483.bindPopup(popup_da874100adf2dbdcbad7f5e4fd8e294e)
+        ;
+
+        
+    
+    
+            var marker_ec11c1a17ce3ac9c00af0e4930ffcc29 = L.marker(
+                [35.17023174518887, 33.36132741534326],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_dbcc8d371a3183d0ed8f5c56ab99be5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec11c1a17ce3ac9c00af0e4930ffcc29.setIcon(icon_dbcc8d371a3183d0ed8f5c56ab99be5a);
+        
+    
+        var popup_0fc6a080845b26dd182047deef6fee46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_752bd4b9ce4065ee4df796406ee6ad26 = $(`<div id="html_752bd4b9ce4065ee4df796406ee6ad26" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/mokWUuPdTxPNZAjJ9?g_st=com.google.maps.preview.copy" target="_blank">Sham Food</a><br><b>Working Hours:</b> 11 am–11:30 pm</div>`)[0];
+                popup_0fc6a080845b26dd182047deef6fee46.setContent(html_752bd4b9ce4065ee4df796406ee6ad26);
+            
+        
+
+        marker_ec11c1a17ce3ac9c00af0e4930ffcc29.bindPopup(popup_0fc6a080845b26dd182047deef6fee46)
+        ;
+
+        
+    
+    
+            var marker_f0ed06968f731b382b64c9a3056acd50 = L.marker(
+                [35.17039572344534, 33.35710331349256],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_362da5cd9350c55ec63df1e52bd5f11d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f0ed06968f731b382b64c9a3056acd50.setIcon(icon_362da5cd9350c55ec63df1e52bd5f11d);
+        
+    
+        var popup_fc1fc85da2a780166caf5b22c59e0aee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90a5009fc0b6c3beba63087144147456 = $(`<div id="html_90a5009fc0b6c3beba63087144147456" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/TyWZs4gJ34jzFXMi9?g_st=com.google.maps.preview.copy" target="_blank">Isengard Shop</a><br><b>Working Hours:</b> 3–9 pm</div>`)[0];
+                popup_fc1fc85da2a780166caf5b22c59e0aee.setContent(html_90a5009fc0b6c3beba63087144147456);
+            
+        
+
+        marker_f0ed06968f731b382b64c9a3056acd50.bindPopup(popup_fc1fc85da2a780166caf5b22c59e0aee)
+        ;
+
+        
+    
+    
+            var marker_fb933f209529347ea93b4c79de432d22 = L.marker(
+                [35.16958556863495, 33.359898215343264],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_ab909837a4c700b472c24bce8b475f9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fb933f209529347ea93b4c79de432d22.setIcon(icon_ab909837a4c700b472c24bce8b475f9d);
+        
+    
+        var popup_43a01c773a77795cc74b931d9c6fd756 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a30db75c1e687281de0354d379260ae1 = $(`<div id="html_a30db75c1e687281de0354d379260ae1" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/ii1xYuWnER99JNA96?g_st=com.google.maps.preview.copy" target="_blank">POW Shop</a><br><b>Working Hours:</b> 10 am–8 pm</div>`)[0];
+                popup_43a01c773a77795cc74b931d9c6fd756.setContent(html_a30db75c1e687281de0354d379260ae1);
+            
+        
+
+        marker_fb933f209529347ea93b4c79de432d22.bindPopup(popup_43a01c773a77795cc74b931d9c6fd756)
+        ;
+
+        
+    
+    
+            var marker_1216fda1a8b76668b19d05ce6110a299 = L.marker(
+                [35.169515465602004, 33.358873900000006],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_e598fc0e398b9dbed45dc1966b318a36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1216fda1a8b76668b19d05ce6110a299.setIcon(icon_e598fc0e398b9dbed45dc1966b318a36);
+        
+    
+        var popup_05018f084f0a3421bebc6dfcd66db659 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_242defb92cf5ac3d16372b0dff16a887 = $(`<div id="html_242defb92cf5ac3d16372b0dff16a887" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/fehsvu2bb3Wo3ZSN8?g_st=com.google.maps.preview.copy" target="_blank">Salonikos Gyros</a><br><b>Working Hours:</b> 11 am–12 am</div>`)[0];
+                popup_05018f084f0a3421bebc6dfcd66db659.setContent(html_242defb92cf5ac3d16372b0dff16a887);
+            
+        
+
+        marker_1216fda1a8b76668b19d05ce6110a299.bindPopup(popup_05018f084f0a3421bebc6dfcd66db659)
+        ;
+
+        
+    
+    
+            var marker_47f2c7592f343c808c1c7be0bf250a90 = L.marker(
+                [35.17456614424366, 33.363331684656735],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_6b623025442282002fb189dd194abb90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47f2c7592f343c808c1c7be0bf250a90.setIcon(icon_6b623025442282002fb189dd194abb90);
+        
+    
+        var popup_99e98e272c37a9d3df1a0070cf5ffea3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62b601cce12549fc55d3cb2ca2482e58 = $(`<div id="html_62b601cce12549fc55d3cb2ca2482e58" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/m2uMYrudTAEoJUfz9?g_st=com.google.maps.preview.copy" target="_blank">Golem Brewhouse</a><br><b>Working Hours:</b> 2–11 pm</div>`)[0];
+                popup_99e98e272c37a9d3df1a0070cf5ffea3.setContent(html_62b601cce12549fc55d3cb2ca2482e58);
+            
+        
+
+        marker_47f2c7592f343c808c1c7be0bf250a90.bindPopup(popup_99e98e272c37a9d3df1a0070cf5ffea3)
+        ;
+
+        
+    
+    
+            var marker_0645dbc9e1e5d661d0bce333b5cd65ac = L.marker(
+                [35.17306420787289, 33.362441242328366],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_6dc280230765c0e7470ff15003c25846 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0645dbc9e1e5d661d0bce333b5cd65ac.setIcon(icon_6dc280230765c0e7470ff15003c25846);
+        
+    
+        var popup_96a003bf98b664309e0460a2af97784e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed36a3588a893cb5866a60d66d3eaa37 = $(`<div id="html_ed36a3588a893cb5866a60d66d3eaa37" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/NrkZp77FwEzdTjYb9?g_st=com.google.maps.preview.copy" target="_blank">Piatsa Gourounaki</a><br><b>Working Hours:</b> 7 pm–10:30 pm</div>`)[0];
+                popup_96a003bf98b664309e0460a2af97784e.setContent(html_ed36a3588a893cb5866a60d66d3eaa37);
+            
+        
+
+        marker_0645dbc9e1e5d661d0bce333b5cd65ac.bindPopup(popup_96a003bf98b664309e0460a2af97784e)
+        ;
+
+        
+    
+    
+            var marker_87c58b509ef45a89604e6a51a7a61709 = L.marker(
+                [35.17086845245807, 33.36269265767164],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_3700f8c94415e0130deab363ce25e2b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glass",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_87c58b509ef45a89604e6a51a7a61709.setIcon(icon_3700f8c94415e0130deab363ce25e2b2);
+        
+    
+        var popup_2d1806b1be8c811b079b03e3bf8cac69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91603bf9133b4782497d7c23359f259d = $(`<div id="html_91603bf9133b4782497d7c23359f259d" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/DdioNCca6hGYeqww6?g_st=com.google.maps.preview.copy" target="_blank">Plato's Bar</a><br><b>Working Hours:</b> 7 pm–2 am</div>`)[0];
+                popup_2d1806b1be8c811b079b03e3bf8cac69.setContent(html_91603bf9133b4782497d7c23359f259d);
+            
+        
+
+        marker_87c58b509ef45a89604e6a51a7a61709.bindPopup(popup_2d1806b1be8c811b079b03e3bf8cac69)
+        ;
+
+        
+    
+    
+            var marker_92caa728e8cf1f72d0a3a10ea5331ed8 = L.marker(
+                [35.163267916710325, 33.364795557671634],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_d1b1f0688bac90b288831bbdc49195f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_92caa728e8cf1f72d0a3a10ea5331ed8.setIcon(icon_d1b1f0688bac90b288831bbdc49195f8);
+        
+    
+        var popup_761e2ad459c4a9b44881be4d1eeaba7c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0da35182b1093797dbdf9d4fe021b874 = $(`<div id="html_0da35182b1093797dbdf9d4fe021b874" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/vQVRXHDHm9rvvVZU6?g_st=com.google.maps.preview.copy" target="_blank">Bar Italia</a><br><b>Working Hours:</b> 6:30 pm–11:30 pm</div>`)[0];
+                popup_761e2ad459c4a9b44881be4d1eeaba7c.setContent(html_0da35182b1093797dbdf9d4fe021b874);
+            
+        
+
+        marker_92caa728e8cf1f72d0a3a10ea5331ed8.bindPopup(popup_761e2ad459c4a9b44881be4d1eeaba7c)
+        ;
+
+        
+    
+    
+            var marker_caeca4f7f5affb5cad14ca37f15bb9eb = L.marker(
+                [35.173568072792555, 33.36176635582082],
+                {
+}
+            ).addTo(map_3fa4abdf1de731e080d690c5ab433a85);
+        
+    
+            var icon_972bd55726c4663341c6a75d5682183b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_caeca4f7f5affb5cad14ca37f15bb9eb.setIcon(icon_972bd55726c4663341c6a75d5682183b);
+        
+    
+        var popup_9fd3f9ff46cbc085b51607cd4ccfae3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e562c878e387de65481e524bdbb51812 = $(`<div id="html_e562c878e387de65481e524bdbb51812" style="width: 100.0%; height: 100.0%;"><a href="https://maps.app.goo.gl/NAku25EnLz5Y5ZYXA?g_st=com.google.maps.preview.copy" target="_blank">Ant Comics</a><br><b>Working Hours:</b> 3–7 pm</div>`)[0];
+                popup_9fd3f9ff46cbc085b51607cd4ccfae3c.setContent(html_e562c878e387de65481e524bdbb51812);
+            
+        
+
+        marker_caeca4f7f5affb5cad14ca37f15bb9eb.bindPopup(popup_9fd3f9ff46cbc085b51607cd4ccfae3c)
+        ;
+
+        
+    
+</script>
+</html>
